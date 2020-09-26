@@ -21,5 +21,5 @@ include(util/cmake/Linters.cmake)
 add_subdirectory(src)
 
 if(IS_ROOT_PROJECT OR BUILD_PROJECT_TESTS)
-  add_subdirectory(test EXCLUDE_FROM_ALL)
+  add_subdirectory(test)
 endif()
